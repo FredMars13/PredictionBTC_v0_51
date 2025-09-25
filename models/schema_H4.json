@@ -1,0 +1,36 @@
+{
+  "feature_names": [
+    "open",
+    "high",
+    "low",
+    "close",
+    "volume",
+    "sma50",
+    "sma100",
+    "sma200",
+    "rsi14",
+    "macd",
+    "macd_signal",
+    "macd_hist",
+    "ret1",
+    "ret5",
+    "ret10",
+    "hl_spread",
+    "oc_spread",
+    "rsi14_lag1",
+    "ret1_lag1",
+    "rsi14_lag2",
+    "ret1_lag2",
+    "rsi14_lag3",
+    "ret1_lag3",
+    "rsi14_lag4",
+    "ret1_lag4",
+    "rsi14_lag5",
+    "ret1_lag5"
+  ],
+  "classes_": [
+    "DOWN",
+    "RANGE",
+    "UP"
+  ]
+}
