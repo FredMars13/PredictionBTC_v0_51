@@ -156,8 +156,7 @@ def main():
                     console(f"⚠ Changement (H={min(HORIZONS)}) → {curr_short} | H1={regime_h1}")
                     state["dernier_timestamp_alerte"] = time.time()
 
-            console(f"[{now_str()}] H1={regime_h1}
-" + "\n".join(lines))
+            console(f"[{now_str()}] H1={regime_h1}\n" + "\n".join(lines))
             save_state(STATE_PATH, state)
 
         except Exception as e:

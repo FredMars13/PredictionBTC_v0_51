@@ -21,4 +21,4 @@ def load_schema(path: str) -> dict:
 def align_features(df_feat: pd.DataFrame, schema: dict) -> pd.DataFrame:
     cols = schema["feature_names"]
     X = df_feat.reindex(columns=cols)
-    return X.fillna(method="ffill").fillna(method="bfill")
+    return X.ffill().bfill()
